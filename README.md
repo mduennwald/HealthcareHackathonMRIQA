@@ -116,7 +116,7 @@ Um eure Lösungen in einem ersten Schritt bewerten zu können, möchten wir euch
 
 Für jedes der 1000 MRT-Bilder erhaltet Ihr ein Ergebnis. Dieses übertragt bitte in folgende Tabelle und lasst uns die Tabelle per [E-Mail](mailto:marko.rak@med.ovgu.de) zukommen. 
 
-[To be linked]()
+[Auswertung.xlsx](https://github.com/mduennwald/HealthcareHackathonMRIQA/tree/master/auswertung.xlsx)
 
 Diese werden wir mit unserer eigenen Tabelle vergleichen und herausfinden wie gut eure Lösung ist. Die besten Lösungen werden wir zudem auf unsere Klinikdaten anwenden.
 
