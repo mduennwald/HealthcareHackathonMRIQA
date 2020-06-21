@@ -130,7 +130,7 @@ Wir werden sehen wer das Rennen macht…
 Auswertung auf Benchmark.zip
 | # | Teamname | Ergebnis [%] | Kommentar |
 | --- | --- | --- | --- |
-| | classicCNN | 93,4 | unsere Baseline |
+| | classicCNN | 87,6 | unsere Baseline |
 | --- | --- | --- | --- |
 | 01 | | | |
 | 02 | | | |
