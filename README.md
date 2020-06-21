@@ -1,8 +1,10 @@
 ## Healthcare Hackathon MRIQA 2020 - Intelligente Qualitätsanalyse von MRT Aufnahmen
 
-*Update 2: Challenge-Datensätze online*
+*Update 2: Benchmark-Datensatz online*
 
 *Update 1: Challenge-Modalitäten spezifiziert*
+
+*Update 0: Einführende [Folien](https://github.com/mduennwald/HealthcareHackathonMRIQA/blob/master/medien/MRIQA_Mainz-Hackathon_2020.pdf) online*
 
 Willkommen auf der Projektseite zu unserem Hack im Bereich Quantenmedizin &amp; künstliche Intelligenz auf dem [Healthcare Hackathon Mainz 2020](https://www.healthcare-hackathon.info/hhmainz). Auf dieser Seite findet Ihr alle notwendigen Informationen zu unserem Thema sowie Kontaktmöglichkeiten.
 
@@ -30,6 +32,8 @@ Sowohl bei der Patientenversorgung als auch bei der Durchführung medizinischer 
 
 Entwerft in einem kleinen Team eine künstliche Intelligenz – basierend auf Convolutional Neural Networks (CNNs) – die verschieden Bildgebungsartefakte in MRT-Aufnahmen möglichst verlässlich erkennen und auch unterscheiden kann. Lasst eure künstliche Intelligenz gegen die der anderen Teams antreten. Es geht um Ruhm und Ehre und die beste Lösung wird prämiert…
 
+![MRIQAComp.png](https://github.com/mduennwald/HealthcareHackathonMRIQA/blob/master/medien/MRIQAComp.png)
+
 #### Zeitplanung
 
 Der Zeitplan des Hacks ist wiefolgt
@@ -39,7 +43,7 @@ Der Zeitplan des Hacks ist wiefolgt
 | 21.06. | 11:30 – 11:40 | Studioauftritt im GHH (Gutenberg Health Hub) |
 | 21.06. | Ab 12:00 | Start der Team Coachings |
 | 21.06. | Ab 12:00 | Start des Hacks |
-| 21.06. | Ab 18:00 | Auswertungs-Datensatz online |
+| 21.06. | Ab 18:00 | Benchmark-Datensatz online |
 | 22.06. | 08:00 | Abgabe der Lösungen |
 | 22.06. | 12:00 – 13:00 | Prämierung der Teams |
 
@@ -130,7 +134,17 @@ Wir werden sehen wer das Rennen macht…
 Auswertung auf Benchmark.zip
 | # | Teamname | Ergebnis [%] | Kommentar |
 | --- | --- | --- | --- |
-| | classicCNN | 93,4 | unsere Baseline |
+| | classicCNN | 93,4 | die Baseline |
+| --- | --- | --- | --- |
+| 01 | | | |
+| 02 | | | |
+| 03 | | | |
+| ... | | | |
+
+Auswertung auf internen Daten
+| # | Teamname | Ergebnis [%] | Kommentar |
+| --- | --- | --- | --- |
+| | classicCNN | 39,0 | die Baseline |
 | --- | --- | --- | --- |
 | 01 | | | |
 | 02 | | | |
