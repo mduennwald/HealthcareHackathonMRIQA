@@ -1,5 +1,7 @@
 ## Healthcare Hackathon MRIQA 2020 - Intelligente Qualitätsanalyse von MRT Aufnahmen
 
+*Update 1: Challenge-Modalitäten spezifiziert*
+
 Willkommen auf der Projektseite zu unserem Hack im Bereich Quantenmedizin &amp; künstliche Intelligenz auf dem [Healthcare Hackathon Mainz 2020](https://www.healthcare-hackathon.info/hhmainz). Auf dieser Seite findet Ihr alle notwendigen Informationen zu unserem Thema sowie Kontaktmöglichkeiten.
 
 #### Vorstellung
@@ -35,7 +37,7 @@ Der Zeitplan des Hacks ist wiefolgt
 | 21.06. | 11:30 – 11:40 | Studioauftritt im GHH (Gutenberg Health Hub) |
 | 21.06. | Ab 12:00 | Start der Team Coachings |
 | 21.06. | Ab 12:00 | Start des Hacks |
-| 21.06. | Ab 18:00 | Benchmark-Datensatz online |
+| 21.06. | Ab 18:00 | Auswertungs-Datensatz online |
 | 22.06. | 08:00 | Abgabe der Lösungen |
 | 22.06. | 12:00 – 13:00 | Prämierung der Teams |
 
@@ -96,17 +98,27 @@ Ihr seid startbereit, meldet euch als Team bei Marko Rak und dann kann es schon 
 
 #### Prämierung
 
-Es geht um die Wurst. Wer am Ende des Hacks die beste Lösung hat wird mit Ruhm und Ehre überschüttet. Nein, Scherz beiseite, jede Lösung und jeder Lösungsweg bringt uns ein Stück weit voran.
-
-Aber dennoch werden wir am Ende eine kleine Auswertung auf unseren eigenen echten Bilddaten machen und die beste Lösung/das beste Team prämieren.
+Es geht um die Wurst. Wer am Ende des Hacks die beste Lösung hat wird mit Ruhm und Ehre überschüttet. Nein, Scherz beiseite, jede Lösung und jeder Lösungsweg bringt uns ein Stück weit voran. Aber dennoch werden wir am Ende eine kleine Auswertung auf unseren eigenen echten Bilddaten machen und die beste Lösung/das beste Team prämieren.
 
 #### Einreichung
 
-Sobald eure Lösung einen Stand erreicht hat, den Ihr einreichen wollt, dann lasst uns doch bitte eure Lösung zukommen. Wenn es die Zeit zulässt machen wir vielleicht schon einen kleinen Testlauf von eurer Lösung auf unseren Bilddaten und teilen euch mit wie gut Ihr seid, wer weiß das schon. Alle Lösungen werden wir hier sammeln.
+Sobald eure Lösung einen Stand erreicht hat, den Ihr einreichen wollt, dann lasst uns doch bitte eure Lösung per Commit zukommen. Wenn es die Zeit zulässt machen wir vielleicht schon einen kleinen Testlauf von eurer Lösung auf unseren Bilddaten. Alle Lösungen möchten wir hier sammeln.
 
 [Lösungen](https://github.com/mduennwald/HealthcareHackathonMRIQA/tree/master/einreichungen)
 
-Euer Skript bzw. eure Skripte sollte möglichst genauso funktionieren, wie die von uns zur Verfügung gestellt Skripte, damit wir keinen Aufwand bei der Anpassung auf unsere Daten haben.
+Euer Skript bzw. eure Skripte sollte möglichst genauso funktionieren, wie die von uns zur Verfügung gestellt Skripte, damit wir geringen Aufwand bei der Anpassung auf unsere Daten haben.
+
+#### Auswertung
+
+Um eure Lösungen in einem ersten Schritt bewerten zu können, möchten wir euch bitten eure Lösung auf folgenden Datensatz anzuwenden.
+
+[To be linked]()
+
+Für jedes der 1000 MRT-Bilder erhaltet Ihr ein Ergebnis. Dieses übertragt bitte in folgende Tabelle und lasst uns die Tabelle per [E-Mail](mailto:marko.rak@med.ovgu.de) zukommen. 
+
+[To be linked]()
+
+Diese werden wir mit unserer eigenen Tabelle vergleichen und herausfinden wie gut eure Lösung ist. Die besten Lösungen werden wir zudem auf unsere Klinikdaten anwenden.
 
 #### Endergebnis
 
