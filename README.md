@@ -43,6 +43,7 @@ Der Zeitplan des Hacks ist wiefolgt
 | 21.06. | 11:30 – 11:40 | Studioauftritt im GHH (Gutenberg Health Hub) |
 | 21.06. | Ab 12:00 | Start der Team Coachings |
 | 21.06. | Ab 12:00 | Start des Hacks |
+| 21.06. | Ab 16:00 | Live-Schaltung Vorstellung Hack |
 | 21.06. | Ab 18:00 | Benchmark-Datensatz online |
 | 22.06. | 08:00 | Abgabe der Lösungen |
 | 22.06. | 12:00 – 13:00 | Prämierung der Teams |
