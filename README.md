@@ -1,6 +1,10 @@
 ## Healthcare Hackathon MRIQA 2020 - Intelligente Qualitätsanalyse von MRT Aufnahmen
 
+*Update 2: Benchmark-Datensatz online*
+
 *Update 1: Challenge-Modalitäten spezifiziert*
+
+*Update 0: Einführende [Folien](https://github.com/mduennwald/HealthcareHackathonMRIQA/blob/master/medien/MRIQA_Mainz-Hackathon_2020.pdf) online*
 
 Willkommen auf der Projektseite zu unserem Hack im Bereich Quantenmedizin &amp; künstliche Intelligenz auf dem [Healthcare Hackathon Mainz 2020](https://www.healthcare-hackathon.info/hhmainz). Auf dieser Seite findet Ihr alle notwendigen Informationen zu unserem Thema sowie Kontaktmöglichkeiten.
 
@@ -24,6 +28,8 @@ In diesem privaten Raum, werden euch die Ansprechpartner während des Hacks zur 
 
 Sowohl bei der Patientenversorgung als auch bei der Durchführung medizinischer Studien spielen Magnetresonanztomographien (MRTs) eine zunehmend wichtigere Rolle. Im Betrieb eines größeren Klinikums oder im Rahmen einer größeren Studie werden tausende von Aufnahmen pro Jahr durchgeführt. Am Universitätsklinikum Magdeburg allein über 11.000 Untersuchungen im Jahr 2019. Ein Teil dieser Aufnahmen stellt sich wegen Artefakten bei der Bildgebung im Nachhinein als qualitativ unzureichend heraus und muss damit ggf. wiederholt werden. Aufgrund der begrenzten MRT-Zeit und hohen MRT-Kosten ist es das Ziel jedes Klinikums/jeder Studie die Anzahl an qualitative unzureichenden Aufnahmen durch Verbesserung des Prozessablaufes, des Personalschulung, der MRT-Parameter usw. zu senken. Als erster Schritt gilt es allerdings dieses Problem ersteinmal erkennen und quantifizieren zu können und dies möglichst vollautomatisch. Darum geht es uns bei diesem Hack.
 
+![MRIQAComp.png](https://github.com/mduennwald/HealthcareHackathonMRIQA/blob/master/medien/MRIQAComp.png)
+
 #### Zielstellung
 
 Entwerft in einem kleinen Team eine künstliche Intelligenz – basierend auf Convolutional Neural Networks (CNNs) – die verschieden Bildgebungsartefakte in MRT-Aufnahmen möglichst verlässlich erkennen und auch unterscheiden kann. Lasst eure künstliche Intelligenz gegen die der anderen Teams antreten. Es geht um Ruhm und Ehre und die beste Lösung wird prämiert…
@@ -37,7 +43,8 @@ Der Zeitplan des Hacks ist wiefolgt
 | 21.06. | 11:30 – 11:40 | Studioauftritt im GHH (Gutenberg Health Hub) |
 | 21.06. | Ab 12:00 | Start der Team Coachings |
 | 21.06. | Ab 12:00 | Start des Hacks |
-| 21.06. | Ab 18:00 | Auswertungs-Datensatz online |
+| 21.06. | Ab 16:00 | Live-Schaltung Vorstellung Hack |
+| 21.06. | Ab 18:00 | Benchmark-Datensatz online |
 | 22.06. | 08:00 | Abgabe der Lösungen |
 | 22.06. | 12:00 – 13:00 | Prämierung der Teams |
 
@@ -112,7 +119,8 @@ Euer Skript bzw. eure Skripte sollte möglichst genauso funktionieren, wie die v
 
 Um eure Lösungen in einem ersten Schritt bewerten zu können, möchten wir euch bitten eure Lösung auf folgenden Datensatz anzuwenden.
 
-[To be linked]()
+[Benchmark.zip](https://docshare-extern.med.ovgu.de/nextcloud/s/GRJseCCw7iTCBn5)
+Passwort: mriqa2020
 
 Für jedes der 1000 MRT-Bilder erhaltet Ihr ein Ergebnis. Dieses übertragt bitte in folgende Tabelle und lasst uns die Tabelle per [E-Mail](mailto:marko.rak@med.ovgu.de) zukommen. 
 
@@ -124,7 +132,20 @@ Diese werden wir mit unserer eigenen Tabelle vergleichen und herausfinden wie gu
 
 Wir werden sehen wer das Rennen macht…
 
-| # | Teamname | Ergebnis | Kommentar |
+Auswertung auf Benchmark.zip
+| # | Teamname | Ergebnis [%] | Kommentar |
+| --- | --- | --- | --- |
+| | classicCNN | 93,4 | die Baseline |
+| --- | --- | --- | --- |
+| 01 | | | |
+| 02 | | | |
+| 03 | | | |
+| ... | | | |
+
+Auswertung auf internen Daten
+| # | Teamname | Ergebnis [%] | Kommentar |
+| --- | --- | --- | --- |
+| | classicCNN | 39,0 | die Baseline |
 | --- | --- | --- | --- |
 | 01 | | | |
 | 02 | | | |
