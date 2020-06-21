@@ -1,5 +1,7 @@
 ## Healthcare Hackathon MRIQA 2020 - Intelligente Qualitätsanalyse von MRT Aufnahmen
 
+*Update 2: Challenge-Datensätze online*
+
 *Update 1: Challenge-Modalitäten spezifiziert*
 
 Willkommen auf der Projektseite zu unserem Hack im Bereich Quantenmedizin &amp; künstliche Intelligenz auf dem [Healthcare Hackathon Mainz 2020](https://www.healthcare-hackathon.info/hhmainz). Auf dieser Seite findet Ihr alle notwendigen Informationen zu unserem Thema sowie Kontaktmöglichkeiten.
@@ -112,7 +114,8 @@ Euer Skript bzw. eure Skripte sollte möglichst genauso funktionieren, wie die v
 
 Um eure Lösungen in einem ersten Schritt bewerten zu können, möchten wir euch bitten eure Lösung auf folgenden Datensatz anzuwenden.
 
-[To be linked]()
+[Datensatz](https://docshare-extern.med.ovgu.de/nextcloud/s/GRJseCCw7iTCBn5)
+Passwort: mriqa2020
 
 Für jedes der 1000 MRT-Bilder erhaltet Ihr ein Ergebnis. Dieses übertragt bitte in folgende Tabelle und lasst uns die Tabelle per [E-Mail](mailto:marko.rak@med.ovgu.de) zukommen. 
 
