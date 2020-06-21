@@ -115,6 +115,7 @@ Euer Skript bzw. eure Skripte sollte möglichst genauso funktionieren, wie die v
 Um eure Lösungen in einem ersten Schritt bewerten zu können, möchten wir euch bitten eure Lösung auf folgenden Datensatz anzuwenden.
 
 [Datensatz](https://docshare-extern.med.ovgu.de/nextcloud/s/GRJseCCw7iTCBn5)
+
 Passwort: mriqa2020
 
 Für jedes der 1000 MRT-Bilder erhaltet Ihr ein Ergebnis. Dieses übertragt bitte in folgende Tabelle und lasst uns die Tabelle per [E-Mail](mailto:marko.rak@med.ovgu.de) zukommen. 
