@@ -127,7 +127,10 @@ Diese werden wir mit unserer eigenen Tabelle vergleichen und herausfinden wie gu
 
 Wir werden sehen wer das Rennen macht…
 
-| # | Teamname | Ergebnis | Kommentar |
+Auswertung auf Benchmark.zip
+| # | Teamname | Ergebnis [%] | Kommentar |
+| --- | --- | --- | --- |
+| | classicCNN | 93,4 | unsere Baseline |
 | --- | --- | --- | --- |
 | 01 | | | |
 | 02 | | | |
