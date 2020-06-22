@@ -146,8 +146,8 @@ Auswertung auf internen Daten
 | Top 3 | Teamname | Ergebnis [%] | Kommentar |
 | --- | --- | --- | --- |
 | | classicCNN | 39,0 | die Baseline |
-| 01 | TeamPE | | Transfer Learning |
-| 02 | TeamPS | | Residual Learning |
+| 01 | TeamPE | 61,2 | Transfer Learning |
+| 02 | TeamPS | 53,0 | Residual Learning |
 | 03 | TeamLGJS* | | Support Vector Machines |
 
 *mit klassischen nicht deep-learning Methoden!
