@@ -133,21 +133,23 @@ Diese werden wir mit unserer eigenen Tabelle vergleichen und herausfinden wie gu
 Wir werden sehen wer das Rennen macht…
 
 Auswertung auf Benchmark.zip
-| # | Teamname | Ergebnis [%] | Kommentar |
+| Top 3 | Teamname | Ergebnis [%] | Kommentar |
 | --- | --- | --- | --- |
 | | classicCNN | 93,4 | die Baseline |
 | --- | --- | --- | --- |
-| 01 | | | |
-| 02 | | | |
-| 03 | | | |
-| ... | | | |
+| 01 | TeamPE | 96,3 | Transfer Learning |
+| 02 | TeamPS | 95,3 | Residual Learning |
+| 03 | TeamLGJS | 59,4* | Support Vector Machines |
+| --- | --- | --- | --- |
+*mit klassischen nicht deep-learning Methoden!
 
 Auswertung auf internen Daten
-| # | Teamname | Ergebnis [%] | Kommentar |
+| Top 3 | Teamname | Ergebnis [%] | Kommentar |
 | --- | --- | --- | --- |
 | | classicCNN | 39,0 | die Baseline |
 | --- | --- | --- | --- |
-| 01 | | | |
-| 02 | | | |
-| 03 | | | |
-| ... | | | |
+| 01 | TeamPE | | Transfer Learning |
+| 02 | TeamPS | | Residual Learning |
+| 03 | TeamLGJS | | Support Vector Machines |
+| --- | --- | --- | --- |
+*mit klassischen nicht deep-learning Methoden!
