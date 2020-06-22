@@ -1,5 +1,7 @@
 ## Healthcare Hackathon MRIQA 2020 - Intelligente Qualitätsanalyse von MRT Aufnahmen
 
+*Update 4: Finale [Folien](https://github.com/mduennwald/HealthcareHackathonMRIQA/blob/master/medien/Mainz-Hackathon_2020_pitch.pdf) online*
+
 *Update 3: Finale Ergebniss online*
 
 *Update 2: Benchmark-Datensatz online*
