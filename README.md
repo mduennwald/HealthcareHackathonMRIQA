@@ -138,7 +138,7 @@ Auswertung auf dem IXI-Benchmark-Datensatz.
 
 | Top 3 | Teamname | Personen | Ergebnis [%] | Kommentar |
 | --- | --- | --- | --- | --- |
-| | classicCNN | Max D. | 93,4 | die Baseline |
+| | *classicCNN* | | *93,4* | *die Baseline* |
 | 01 | TeamPE | Philipp E. | 96,3 | Transfer Learning |
 | 02 | TeamPS | Philipp S. | 95,3 | Residual Learning |
 | 03 | TeamLGJS* | Larissa G. & Jan S. | 59,4 | Fourier Analysis |
@@ -149,7 +149,7 @@ Auswertung auf unseren internen Daten ohne weiteres Training.
 
 | Top 3 | Teamname | Personen | Ergebnis [%] | Kommentar |
 | --- | --- | --- | --- | --- |
-| | classicCNN | Max D.  | 39,0 | die Baseline |
+| | *classicCNN* | | *39,0* | *die Baseline* |
 | 01 | TeamPE | Philipp E. | 61,2 | Transfer Learning |
 | 02 | TeamPS | Philipp S. | 53,0 | Residual Learning |
 | 03 | TeamLGJS* | Larissa G. & Jan S. | | Fourier Analysis |
@@ -160,7 +160,7 @@ Auswertung auf unseren internen Daten inkl. weiterem Training.
 
 | Top 3 | Teamname | Personen | Ergebnis [%] | Kommentar |
 | --- | --- | --- | --- | --- |
-| | classicCNN | Max D.  |  | die Baseline |
+| | *classicCNN* | | | *die Baseline* |
 | 01 | TeamPE | Philipp E. |  | Transfer Learning |
 | 02 | TeamPS | Philipp S. |  | Residual Learning |
 | 03 | TeamLGJS* | Larissa G. & Jan S. | N.A. | Fourier Analysis |
