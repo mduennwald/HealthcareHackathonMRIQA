@@ -141,6 +141,7 @@ Auswertung auf Benchmark.zip
 | 02 | TeamPS | 95,3 | Residual Learning |
 | 03 | TeamLGJS | 59,4* | Support Vector Machines |
 | --- | --- | --- | --- |
+
 *mit klassischen nicht deep-learning Methoden!
 
 Auswertung auf internen Daten
@@ -152,4 +153,5 @@ Auswertung auf internen Daten
 | 02 | TeamPS | | Residual Learning |
 | 03 | TeamLGJS | | Support Vector Machines |
 | --- | --- | --- | --- |
+
 *mit klassischen nicht deep-learning Methoden!
