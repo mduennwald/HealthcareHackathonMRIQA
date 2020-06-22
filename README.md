@@ -134,22 +134,35 @@ Diese werden wir mit unserer eigenen Tabelle vergleichen und herausfinden wie gu
 
 Wir werden sehen wer das Rennen macht…
 
-Auswertung auf Benchmark.zip
-| Top 3 | Teamname | Ergebnis [%] | Kommentar |
-| --- | --- | --- | --- |
-| | classicCNN | 93,4 | die Baseline |
-| 01 | TeamPE | 96,3 | Transfer Learning |
-| 02 | TeamPS | 95,3 | Residual Learning |
-| 03 | TeamLGJS* | 59,4 | Fourier Analysis |
+Auswertung auf dem IXI-Benchmark-Datensatz.
+
+| Top 3 | Teamname | Personen | Ergebnis [%] | Kommentar |
+| --- | --- | --- | --- | --- |
+| | classicCNN | Max D. | 93,4 | die Baseline |
+| 01 | TeamPE | Philipp E. | 96,3 | Transfer Learning |
+| 02 | TeamPS | Philipp S. | 95,3 | Residual Learning |
+| 03 | TeamLGJS* | Larissa G. & Jan S. | 59,4 | Fourier Analysis |
 
 *mit klassischen nicht deep-learning Methoden!
 
-Auswertung auf internen Daten
-| Top 3 | Teamname | Ergebnis [%] | Kommentar |
-| --- | --- | --- | --- |
-| | classicCNN | 39,0 | die Baseline |
-| 01 | TeamPE | 61,2 | Transfer Learning |
-| 02 | TeamPS | 53,0 | Residual Learning |
-| 03 | TeamLGJS* | | Fourier Analysis |
+Auswertung auf unseren internen Daten ohne weiteres Training.
+
+| Top 3 | Teamname | Personen | Ergebnis [%] | Kommentar |
+| --- | --- | --- | --- | --- |
+| | classicCNN | Max D.  | 39,0 | die Baseline |
+| 01 | TeamPE | Philipp E. | 61,2 | Transfer Learning |
+| 02 | TeamPS | Philipp S. | 53,0 | Residual Learning |
+| 03 | TeamLGJS* | Larissa G. & Jan S. | | Fourier Analysis |
+
+*mit klassischen nicht deep-learning Methoden!
+
+Auswertung auf unseren internen Daten inkl. weiterem Training.
+
+| Top 3 | Teamname | Personen | Ergebnis [%] | Kommentar |
+| --- | --- | --- | --- | --- |
+| | classicCNN | Max D.  |  | die Baseline |
+| 01 | TeamPE | Philipp E. |  | Transfer Learning |
+| 02 | TeamPS | Philipp S. |  | Residual Learning |
+| 03 | TeamLGJS* | Larissa G. & Jan S. | N.A. | Fourier Analysis |
 
 *mit klassischen nicht deep-learning Methoden!
