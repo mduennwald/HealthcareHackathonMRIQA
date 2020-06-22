@@ -136,7 +136,6 @@ Auswertung auf Benchmark.zip
 | Top 3 | Teamname | Ergebnis [%] | Kommentar |
 | --- | --- | --- | --- |
 | | classicCNN | 93,4 | die Baseline |
-| --- | --- | --- | --- |
 | 01 | TeamPE | 96,3 | Transfer Learning |
 | 02 | TeamPS | 95,3 | Residual Learning |
 | 03 | TeamLGJS | 59,4* | Support Vector Machines |
@@ -147,7 +146,6 @@ Auswertung auf internen Daten
 | Top 3 | Teamname | Ergebnis [%] | Kommentar |
 | --- | --- | --- | --- |
 | | classicCNN | 39,0 | die Baseline |
-| --- | --- | --- | --- |
 | 01 | TeamPE | | Transfer Learning |
 | 02 | TeamPS | | Residual Learning |
 | 03 | TeamLGJS | | Support Vector Machines |
