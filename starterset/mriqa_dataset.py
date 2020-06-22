@@ -1,4 +1,5 @@
 import torch
+import torch.nn.functional as F
 import torchio
 import random
 import numpy as np
@@ -82,9 +83,19 @@ class MRIQADataset(torchio.datasets.IXI):
         sample /= torch.max(sample)
 
         # choose random slice of volume
-        margin = int(sample.shape[-1] * 0.1)
-        slice_number = random.randint(margin, sample.shape[-1] - margin)
-        sample = sample[..., slice_number].unsqueeze(dim=0)
+        slice_direction = random.randint(1, 3)
+        margin = int(sample.shape[slice_direction] * 0.1)
+        slice_number = random.randint(margin, sample.shape[slice_direction] - margin)
+        if slice_direction == 1:
+            sample = sample[:, slice_number, :, :].unsqueeze(dim=0)
+            half = (sample.shape[2]-sample.shape[3])//2
+            sample = F.pad(sample, (half, sample.shape[2]-half-sample.shape[3]))
+        elif slice_direction == 2:
+            sample = sample[:, :, slice_number, :].unsqueeze(dim=0)
+            half = (sample.shape[2]-sample.shape[3])//2
+            sample = F.pad(sample, (half, sample.shape[2]-half-sample.shape[3]))
+        else:
+            sample = sample[:, :, :, slice_number].unsqueeze(dim=0)
 
         # Apply random artefact (or not)
         artefact = torch.zeros(5)
@@ -99,3 +110,11 @@ class MRIQADataset(torchio.datasets.IXI):
         #sample = simulate_artefacts(sample, label)
         sample = sample.squeeze(dim=0)
         return sample, label
+
+def main():
+    ds = MRIQADataset('.',    # path to save data to
+        modalities=('T1', 'T2'))
+    next(iter(ds))
+
+if __name__ == "__main__":
+    main()
