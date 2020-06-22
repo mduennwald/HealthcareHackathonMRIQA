@@ -1,6 +1,6 @@
 ## Healthcare Hackathon MRIQA 2020 - Intelligente Qualitätsanalyse von MRT Aufnahmen
 
-*Update 3: erste Ergebniss online*
+*Update 3: Finale Ergebniss online*
 
 *Update 2: Benchmark-Datensatz online*
 
