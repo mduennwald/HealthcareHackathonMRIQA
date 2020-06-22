@@ -138,7 +138,7 @@ Auswertung auf Benchmark.zip
 | | classicCNN | 93,4 | die Baseline |
 | 01 | TeamPE | 96,3 | Transfer Learning |
 | 02 | TeamPS | 95,3 | Residual Learning |
-| 03 | TeamLGJS* | 59,4 | Support Vector Machines |
+| 03 | TeamLGJS* | 59,4 | Fourier Analysis |
 
 *mit klassischen nicht deep-learning Methoden!
 
@@ -148,6 +148,6 @@ Auswertung auf internen Daten
 | | classicCNN | 39,0 | die Baseline |
 | 01 | TeamPE | 61,2 | Transfer Learning |
 | 02 | TeamPS | 53,0 | Residual Learning |
-| 03 | TeamLGJS* | | Support Vector Machines |
+| 03 | TeamLGJS* | | Fourier Analysis |
 
 *mit klassischen nicht deep-learning Methoden!
