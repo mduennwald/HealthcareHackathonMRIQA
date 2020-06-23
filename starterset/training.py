@@ -12,7 +12,7 @@ from torch.nn import CrossEntropyLoss
 from tqdm import tqdm
 
 from mriqa_dataset import MRIQADataset
-from networks import CustomResNet
+from networks import ClassicCNN
 
 
 # set random seeds for reproducibility
@@ -26,7 +26,7 @@ torch.backends.cudnn.benchmark = False
 
 def train():
     num_epochs = 500
-    batch_size = 32
+    batch_size = 8
     loss_csv = open('losses.csv', 'w')
     loss_csv.write('epoch,training,validation\n')
 
@@ -38,13 +38,13 @@ def train():
     )
 
     # split data into training and validation sets
-    train_set, validation_set = torch.utils.data.random_split(dataset, (153, 32))
-    train_loader = DataLoader(train_set, batch_size=batch_size, shuffle=True, pin_memory=True)
-    validation_loader = DataLoader(validation_set, batch_size=batch_size, shuffle=True, pin_memory=True)
+    train_set, validation_set = torch.utils.data.random_split(dataset, (100, 85))
+    train_loader = DataLoader(train_set, batch_size=batch_size, shuffle=True)
+    validation_loader = DataLoader(validation_set, batch_size=batch_size, shuffle=True)
 
-    net = CustomResNet(num_classes=5)
+    net = ClassicCNN(num_classes=5)
     net = net.cuda()
-    optimizer = optim.SGD(net.parameters(), lr=1e-3)
+    optimizer = optim.Adam(net.parameters())
     ce = CrossEntropyLoss().cuda()
 
     num_mini_batches = len(train_loader)
@@ -95,6 +95,6 @@ def train():
             best_val_loss = mean_validation_loss
     print('DONE.')
 
-
+    
 if __name__ == '__main__':
     train()
