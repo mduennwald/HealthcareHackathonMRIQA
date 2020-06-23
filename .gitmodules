@@ -1,0 +1,9 @@
+[submodule "einreichungen/phernst"]
+	path = einreichungen/phernst
+	url = https://github.com/phernst/HealthcareHackathonMRIQA
+[submodule "einreichungen/theudas"]
+	path = einreichungen/theudas
+	url = https://github.com/theudas/HealthcareHackathonMRIQA
+[submodule "einreichungen/lglass"]
+	path = einreichungen/lglass
+	url = https://github.com/lglass/blurry-detect
